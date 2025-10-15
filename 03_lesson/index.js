@@ -1,3 +1,5 @@
+/* eslint-disable max-len */
+/* eslint-disable quotes */
 import "console-emojis"
 import chalk from "chalk"
 
@@ -8,7 +10,8 @@ function lessonThree() {
   /// 1
   console.one(
     chalk.italic(
-      " Задание. Дайте ответ, что будет в результате выполнения данных ниже примеров. \nС объяснением, почему это так.\n"
+      ` Задание. Дайте ответ, что будет в результате выполнения данных ниже примеров.
+С объяснением, почему это так.\n`
     )
   )
 

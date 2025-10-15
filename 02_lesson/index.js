@@ -1,3 +1,6 @@
+/* eslint-disable max-len */
+/* eslint-disable no-unused-vars */
+
 import "console-emojis"
 import chalk from "chalk"
 
