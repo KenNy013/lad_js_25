@@ -18,7 +18,9 @@ function lessonThree() {
   ///1.1 => true
   console.question(
     '1.1 "кот" > "код"',
-    chalk.gray(" => \nОтвет | true, так как 'т-1090' код символа выше 'д-1076'\n")
+    chalk.gray(
+      " => \nОтвет | true, так как 'т-1090' код символа выше 'д-1076'\n"
+    )
   )
 
   ///1.2 => '24'
@@ -38,7 +40,9 @@ function lessonThree() {
   ///1.4 => false
   console.question(
     "1.4 undefined != null",
-    chalk.gray("=>\nОтвет | false,  undefined == null дает true, то undefined != null даст false\n")
+    chalk.gray(
+      "=>\nОтвет | false,  undefined == null дает true, то undefined != null даст false\n"
+    )
   )
 
   ///1.5 => false
@@ -52,7 +56,9 @@ function lessonThree() {
   ///1.6 => false
   console.question(
     '1.6 2 > "3"',
-    chalk.gray("=> \nОтвет | false, при разных типах приводит к числу поэтому '3' => 3, а 3 > 2\n")
+    chalk.gray(
+      "=> \nОтвет | false, при разных типах приводит к числу поэтому '3' => 3, а 3 > 2\n"
+    )
   )
 
   ///1.7 => 1
@@ -88,36 +94,49 @@ function lessonThree() {
   )
 
   ///1.11 => "l45"
-  console.question('1.11 "l" + 4 + 5', chalk.gray("=> \nОтвет | 'l45',  конкатенация строк \n"))
+  console.question(
+    '1.11 "l" + 4 + 5',
+    chalk.gray("=> \nОтвет | 'l45',  конкатенация строк \n")
+  )
 
   ///1.12 => 2
   console.question(
     '1.12 "4"- 2',
-    chalk.gray("=> \nОтвет | 2, '4', преобразуется в число при операторе '-'  \n")
+    chalk.gray(
+      "=> \nОтвет | 2, '4', преобразуется в число при операторе '-'  \n"
+    )
   )
 
   ///1.13 => NaN
   console.question(
     '1.13 "4"-"4x"',
-    chalk.gray("=> \nОтвет | NaN, '4px', потому что '4x' нельзя преобразовать в число \n")
+    chalk.gray(
+      "=> \nОтвет | NaN, '4px', потому что '4x' нельзя преобразовать в число \n"
+    )
   )
 
   ///1.14 => true
   console.question(
     '1.14 "23" == 23',
-    chalk.gray("=> \nОтвет | true, идет преобразоване '23' к числу при нестрогом сравнение \n")
+    chalk.gray(
+      "=> \nОтвет | true, идет преобразоване '23' к числу при нестрогом сравнение \n"
+    )
   )
 
   ///1.15 => false
   console.question(
     "1.15 null == false",
-    chalk.gray("=> \nОтвет | false, опять же прикольное исключение в js, null == undefined \n")
+    chalk.gray(
+      "=> \nОтвет | false, опять же прикольное исключение в js, null == undefined \n"
+    )
   )
 
   ///1.16 => -Infinity
   console.question(
     '1.16 "-4 "/ 0 + 1"',
-    chalk.gray("=> \nОтвет | -Infinity, потому что: -4 / 0 = -Infinity + 1 = -Infinity \n")
+    chalk.gray(
+      "=> \nОтвет | -Infinity, потому что: -4 / 0 = -Infinity + 1 = -Infinity \n"
+    )
   )
 
   ///1.17 => 1
@@ -127,12 +146,17 @@ function lessonThree() {
   )
 
   ///1.18 => NaN
-  console.question("1.18 undefined + null", chalk.gray("=> \nОтвет | NaN, undefined => NaN \n"))
+  console.question(
+    "1.18 undefined + null",
+    chalk.gray("=> \nОтвет | NaN, undefined => NaN \n")
+  )
 
   ///1.19 => false
   console.question(
     '1.18 1 === "1"',
-    chalk.gray("=> \nОтвет | false, строгое сравнение по типам number и string \n")
+    chalk.gray(
+      "=> \nОтвет | false, строгое сравнение по типам number и string \n"
+    )
   )
 
   ///1.20 => false
@@ -144,52 +168,70 @@ function lessonThree() {
   ///1.21 => false
   console.question(
     "1.21 NaN == undefined",
-    chalk.gray("=> \nОтвет | false,  не равен ни одному другому значению, даже самому себе \n")
+    chalk.gray(
+      "=> \nОтвет | false,  не равен ни одному другому значению, даже самому себе \n"
+    )
   )
 
   /// 2
-  console.two(chalk.italic(" Задание.Что будет выведено в консоль и почему? \n"))
+  console.two(
+    chalk.italic(" Задание.Что будет выведено в консоль и почему? \n")
+  )
 
   ///2.1 => "53"
   console.question(
     '2.1 console.log("5" + 3)',
-    chalk.gray("=> \nОтвет | '53', потому что '+' со строкой преобразует число 3 в строку '3'\n")
+    chalk.gray(
+      "=> \nОтвет | '53', потому что '+' со строкой преобразует число 3 в строку '3'\n"
+    )
   )
 
   ///2.2 => 8
   console.question(
     '2.2 console.log("10"- 2)',
-    chalk.gray("=> \nОтвет | 8, потому что '-' со строкой преобразует '10' в число 10 \n")
+    chalk.gray(
+      "=> \nОтвет | 8, потому что '-' со строкой преобразует '10' в число 10 \n"
+    )
   )
 
   ///2.3 => 15
   console.question(
     '2.3 console.log("5" * 3);',
-    chalk.gray("=> \nОтвет | 15, потому что '*' со строкой преобразует '5' в число 5 \n")
+    chalk.gray(
+      "=> \nОтвет | 15, потому что '*' со строкой преобразует '5' в число 5 \n"
+    )
   )
 
   ///2.4 => 5
   console.question(
     '2.4 console.log("20" / 4)',
-    chalk.gray("=> \nОтвет | 5, потому что '/' со строкой преобразует '20' в число 20 \n")
+    chalk.gray(
+      "=> \nОтвет | 5, потому что '/' со строкой преобразует '20' в число 20 \n"
+    )
   )
 
   ///2.5 => 2
   console.question(
     '2.5 console.log("17" % 5)',
-    chalk.gray("=> \nОтвет | 2, потому что '%' со строкой преобразует '17' в число 17 \n")
+    chalk.gray(
+      "=> \nОтвет | 2, потому что '%' со строкой преобразует '17' в число 17 \n"
+    )
   )
 
   ///2.6 => 1,23
   console.question(
     "2.6 console.log([1, 2] + 3)",
-    chalk.gray("=> \nОтвет | 1,23, массив преобразуется в строку и происходит конкатенация \n")
+    chalk.gray(
+      "=> \nОтвет | 1,23, массив преобразуется в строку и происходит конкатенация \n"
+    )
   )
 
   ///2.7 => 8
   console.question(
     '2.7 console.log("2" ** 3)',
-    chalk.gray("=> \nОтвет | 8, потому что '**' со строкой преобразует '2' в число 2 \n")
+    chalk.gray(
+      "=> \nОтвет | 8, потому что '**' со строкой преобразует '2' в число 2 \n"
+    )
   )
 
   ///2.8 => 1
@@ -207,7 +249,9 @@ function lessonThree() {
   ///2.10 => 5
   console.question(
     "2.10 console.log(null + 5)",
-    chalk.gray("=> \nОтвет | 5, null в данном случае преобразуется в число а null = 0 \n")
+    chalk.gray(
+      "=> \nОтвет | 5, null в данном случае преобразуется в число а null = 0 \n"
+    )
   )
 
   ///2.11 => NaN
@@ -229,19 +273,25 @@ function lessonThree() {
   ///2.13 => -5
   console.question(
     "2.13 console.log('' - 5)",
-    chalk.gray("=> \nОтвет | -5, потому что '-' со строкой преобразует строку '' в число 0 \n")
+    chalk.gray(
+      "=> \nОтвет | -5, потому что '-' со строкой преобразует строку '' в число 0 \n"
+    )
   )
 
   ///2.14 => 0
   console.question(
     "2.14 console.log('' * 5)",
-    chalk.gray("=> \nОтвет | 0, потому что '*' со строкой преобразует строку '' в число 0 \n")
+    chalk.gray(
+      "=> \nОтвет | 0, потому что '*' со строкой преобразует строку '' в число 0 \n"
+    )
   )
 
   ///2.15 => 7
   console.question(
     "2.15 console.log([10] - 3)",
-    chalk.gray("=> \nОтвет | 0, потому что '-' с объектом преобразует объект  [10] в число 10 \n")
+    chalk.gray(
+      "=> \nОтвет | 0, потому что '-' с объектом преобразует объект  [10] в число 10 \n"
+    )
   )
 
   ///2.16 => NaN
@@ -255,7 +305,9 @@ function lessonThree() {
   ///2.17 => [object Object]1
   console.question(
     "2.17 console.log({} + 1)",
-    chalk.gray("=> \nОтвет | [object Object]1,  объект {} → строка '[object Object]' \n")
+    chalk.gray(
+      "=> \nОтвет | [object Object]1,  объект {} → строка '[object Object]' \n"
+    )
   )
 
   ///2.18 => 103
@@ -269,7 +321,9 @@ function lessonThree() {
   ///2.19 => 11
   console.question(
     "2.19 console.log('10'- 2 + 3)",
-    chalk.gray("=> \nОтвет | 11,  строка '10' преобразует в число при операторе '-' \n")
+    chalk.gray(
+      "=> \nОтвет | 11,  строка '10' преобразует в число при операторе '-' \n"
+    )
   )
 
   console.log("\n", "-".repeat(80))

@@ -53,7 +53,7 @@ export default defineConfig([
       "comma-style": "error",
       "eol-last": "error",
       "func-call-spacing": "error",
-      indent: ["error", 2],
+      // indent: ["error", ""],
       "key-spacing": "error",
       "keyword-spacing": "error",
       "linebreak-style": ["error", "unix"],
