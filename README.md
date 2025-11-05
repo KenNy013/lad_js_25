@@ -35,6 +35,10 @@ npm start
 
 * **Тема 4: Циклы и условия** |  `04_lesson/index.js`
 
+* **Тема 5: Функции** |  `05_lesson/index.js`
+
+* **Тема 6: Объекты** |  `06_lesson/index.js`
+
 <br>
 
 
