@@ -1,13 +1,13 @@
 import "console-emojis"
 import { cristal, summer, vice } from "gradient-string"
 import chalk from "chalk"
-
-import lessonSix from "./06_lesson/index.js"
+import lessonSeven from "./07_lesson/index.js"
 
 // import lessonTwo from "./02_lesson/index.js"
 // import lessonThree from "./03_lesson/index.js"
 // import lessonFour from "./04_lesson/index.js"
 // import lessonFive from "./05_lesson/index.js"
+// import lessonSix from "./06_lesson/index.js"
 
 console.handshake(cristal("Всем привет!\n"))
 
@@ -26,4 +26,7 @@ console.four(chalk.bold(summer(" Функции")))
 // lessonFive()
 
 console.six(chalk.bold(summer(" Объекты")))
-lessonSix()
+// lessonSix()
+
+console.seven(chalk.bold(summer(" Массивы")))
+lessonSeven()

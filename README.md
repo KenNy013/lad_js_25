@@ -39,6 +39,8 @@ npm start
 
 * **Тема 6: Объекты** |  `06_lesson/index.js`
 
+* **Тема 7: Массивы** |  `07_lesson/index.js`
+
 <br>
 
 
